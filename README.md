@@ -21,6 +21,7 @@ assets/         portrait and favicon
 All text lives in `index.html`. Each section is marked with a comment such as `<!-- EXPERIENCE -->`. Edit the text between the tags, commit to `main`, and the site redeploys automatically.
 
 - **Booking link:** search for `calendly.com`. It appears three times (navigation, hero, contact), each marked `BOOKING LINK`. Change all three together.
+- **Email address:** search for `mailto:`. It appears twice (contact, footer).
 - **LinkedIn link:** search for `linkedin.com`. It appears twice (contact, footer).
 - **Add a role:** copy one `<article class="role">` block in the Experience section and paste it above the others.
 - **Portrait:** replace `assets/alexandra-portrait.webp` with a new 800 × 1000 px image of the same name.
