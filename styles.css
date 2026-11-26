@@ -172,6 +172,11 @@ h3 { font-size: 1.15rem; line-height: 1.3; letter-spacing: -.01em; }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding-top: 24px; padding-bottom: 24px; }
 .site-footer ul { display: flex; gap: 20px; }
 
+.tagline { margin-top: 20px; font-weight: 700; letter-spacing: -.005em; color: var(--navy); }
+@media (min-width: 861px) { .themes-4 { grid-template-columns: repeat(2, 1fr); } }
+.contact-ways { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 auto 28px; max-width: 40em; }
+.contact-ways li { padding: 6px 14px; background: var(--bg); border: 1px solid var(--navy); border-radius: 999px; font-size: .95rem; font-weight: 600; }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .section { grid-template-columns: 1fr; gap: 0; }
